@@ -5,23 +5,26 @@ This is a beginner-friendly Machine Learning project to predict the **risk of st
 ---
 
 ## 📁 Project Structure
-
-Student-Dropout-Risk-Predictor/
+```
+student-dropout-risk-predictor/
 │
 ├── data/
-│ └── studentscourse.csv
+│   └── student-scores.csv
 │
 ├── model/
-│ ├── trained_model.pkl
-│ ├── le_gender.pkl
-│ └── le_aspiration.pkl
+│   ├── trained_model.pkl
+│   ├── le_aspiration.pkl
+│   └── le_gender.pkl
 │
 ├── notebooks/
-│ ├── data_load_clean.ipynb
-│ └── prediction.ipynb
+│   ├── data_load_clean.ipynb
+│   └── prediction.ipynb
 │
 ├── requirements.txt
-└── README.md
+├── README.md
+└── LICENSE
+```
+
 
 ---
 
@@ -70,19 +73,21 @@ Career aspirations, etc.
    ```bash
    git clone https://github.com/KANI11112004/student-dropout-risk-predictor.git
    cd student-dropout-risk-predictor
+   ```
+ 
 
-2. **Install Dependencies**
+2. **Install the dependencies**
+
 Make sure you have Python 3.x installed. Then install required libraries:
 
-bash
+```bash
 
-pip install -r requirements.txt
-
+    pip install -r requirements.txt
+```
 3. **Run the Notebooks**
 
-           Open notebooks/data_load_clean.ipynb to explore the dataset, clean it, and train the model.
-
-           Open notebooks/prediction.ipynb to test the trained model on new student data.
+Open notebooks/data_load_clean.ipynb to explore the dataset, clean it, and train the model.
+Open notebooks/prediction.ipynb to test the trained model on new student data.
 
 4. **Make Predictions**
 Modify the sample input in prediction.ipynb to test dropout risk prediction for any new student profile.
