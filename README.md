@@ -68,7 +68,7 @@ Career aspirations, etc.
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/kani11112004/student-dropout-risk-predictor.git
+   git clone https://github.com/KANI11112004/student-dropout-risk-predictor.git
    cd student-dropout-risk-predictor
 
 2. **Install Dependencies**
